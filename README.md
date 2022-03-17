@@ -1,5 +1,5 @@
 # MultisnipOCR
-## Multi-platform shortcut snipping tool to copy text through an OCR engine to the clipboard
+## Multi-platform & multi-lingual shortcut snipping tool to copy text through an OCR engine to the clipboard
 #
 This project was inspired by the windows shortcut WIN+SHIFT+S which allows users to quickly screenshot a portion of the screen to their clipboard.
 The idea is to replicate this but instead of copying the image, pass it through an OCR engine and copy the text.
