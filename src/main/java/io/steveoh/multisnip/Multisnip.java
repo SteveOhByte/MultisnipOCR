@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -173,9 +174,9 @@ public class Multisnip {
         height = 0;
         clearForms();
         for (String image : images) {
-            if (Files.exists(Path.of(image))) {
+            if (Files.exists(Paths.get(image))) {
                 try {
-                    Files.delete(Path.of(image));
+                    Files.delete(Paths.get(image));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
